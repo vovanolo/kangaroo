@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header css */
+header {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  font-size: 24px;
+}
+
+.header_slider {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.first_slide {
+  box-sizing: content-box;
+  background-image: url("/images/Rectangle 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-position: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.second_slide {
+  box-sizing: content-box;
+  background-image: url("/images/Rectangle 3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-position: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.third_slide {
+  box-sizing: content-box;
+  background-image: url("/images/up-arrow.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  /* background-position: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.header_text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header_title {
+  margin-bottom: 5rem;
+}
+
+.header_title > h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.header_title > p {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(152, 128, 128);
+}
+
+.header_arrow > span {
+  font-size: 36px;
+  font-style: italic;
+  color: #5993f9;
+}
+/* end header css */
